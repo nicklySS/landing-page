@@ -177,4 +177,10 @@
     align-self: center;
 }
 
-
+footer {
+    padding-left: 200px;
+    padding-right: 200px;
+    height: 75px;
+    text-align: center;
+    color: white;
+}
