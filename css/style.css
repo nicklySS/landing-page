@@ -40,3 +40,42 @@
     text-align: center;
 }
 
+#hero {
+    display: flex;
+    padding: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.hero-item {
+    flex: 1;
+}
+
+#hero-text button {
+    background-color: #3882F6;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 900;
+}
+
+#hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+#hero h2 {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#hero-image {
+    background-color: rgba(211, 211, 211, 0.479);
+    text-align: center;
+}
+
