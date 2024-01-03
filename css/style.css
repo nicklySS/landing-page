@@ -51,7 +51,8 @@
     flex: 1;
 }
 
-#hero-text button {
+.hero-button {
+    transition: 0.2s;
     background-color: #3882F6;
     color: white;
     font-size: 18px;
@@ -60,6 +61,13 @@
     border: none;
     border-radius: 10px;
     font-weight: 900;
+}
+.hero-button:hover {
+    width: 180px;
+}
+.hero-button:active {
+    background-color: white;
+    color: #3882F6;
 }
 
 #hero h1 {
@@ -166,6 +174,8 @@
     justify-content: center;
 }
 .cta-button {
+    transition: 0.2s;
+
     max-width: 200px;
     height: 60px;
     font-size: 24px;
@@ -175,6 +185,14 @@
     border: 4px solid white;
     border-radius: 15px;
     align-self: center;
+}
+.cta-button:active {
+    background-color: white;
+    color: #3882F6;
+}
+.cta-button:hover {
+    max-width: 220px;
+    height: 70px;
 }
 
 footer {
